@@ -273,6 +273,14 @@ p {
   
 }
 
+.form-field:focus-within > .form-icon{
+  color: var(--accent-color);
+}
+
+.form-field:focus-within > .form-field{
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
 .modal-input {
   width: 448px;
   height: 40px;
